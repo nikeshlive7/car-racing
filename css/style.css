@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.canvas{
+	width:400px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.racing-track{
+	padding:0px 50px;
+	top:-39400px;
+	height:40000px;
+	position:relative;
+	background:url(../images/trackUsed.png);
+	}
+
+/*All div and span style*/
+
+
+.our-car{
+	height:100px;
+	width:80px;
+	background:url(../images/ourCarUsed.png) 0 0 no-repeat;
+	position:absolute;
+	top:500px;
+	left:160px;
+	}
+.opponent-car{
+	height:100px;
+	width:80px;
+	background:url(../images/opponentCarUsed.png) 0 0 no-repeat;
+	position:absolute;
+	
+	}
+.score-board{
+	width:50px;
+	left:0px;
+	top:10px;
+	position:absolute;
+	background:#0000FF;
+	color:#ffffff;
+	}
+.game-over{
+	position:absolute;
+	font-size:40px;
+	color:#F00;
+	top:40px;
+	}
